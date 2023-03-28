@@ -1,0 +1,112 @@
+{
+  "clowns": [
+    {
+      "id": 1,
+      "name": "Mike"
+    },
+    {
+      "id": 2,
+      "name": "Leslie"
+    }
+  ],
+  "bookings": [
+    {
+      "parentName": "Carl Weathers",
+      "childName": "Carl Weathers Jr",
+      "numOfChildren": "35",
+      "address": "804 Rocky Avenue",
+      "dateOfRes": "2023-03-31",
+      "lengthOfRes": "3",
+      "id": 1
+    },
+    {
+      "parentName": "Carol Baskin",
+      "childName": "Marril Baskin",
+      "numOfChildren": "20",
+      "address": "42 Wallaby Way",
+      "dateOfRes": "2023-03-28",
+      "lengthOfRes": "4",
+      "id": 2
+    },
+    {
+      "parentName": "Kim Smith",
+      "childName": "Jimbo Smith",
+      "numOfChildren": "8",
+      "address": "6749 Dogtail Rd",
+      "dateOfRes": "2023-04-24",
+      "lengthOfRes": "7",
+      "id": 3
+    },
+    {
+      "parentName": "Kenny Powers",
+      "childName": "Anita Powers",
+      "numOfChildren": "40",
+      "address": "356 Humpback Ln",
+      "dateOfRes": "2023-04-22",
+      "lengthOfRes": "5",
+      "id": 4
+    },
+    {
+      "parentName": "Cherith Plinth",
+      "childName": "Hope Plinth",
+      "numOfChildren": "50",
+      "address": "670 Smackplop Circle",
+      "dateOfRes": "2023-04-26",
+      "lengthOfRes": "5",
+      "id": 5
+    },
+    {
+      "parentName": "Jimmy Caldwell",
+      "childName": "Katie Caldwell",
+      "numOfChildren": "14",
+      "address": "904 White Oak Drive",
+      "dateOfRes": "2023-04-22",
+      "lengthOfRes": "2",
+      "id": 6
+    }
+  ],
+  "completions": [
+    {
+      "bookingId": 1,
+      "clownId": 1,
+      "workComplete": true,
+      "date_created": "2023-03-27T17:22:25.367Z",
+      "id": 1
+    },
+    {
+      "bookingId": 1,
+      "clownId": 1,
+      "workComplete": true,
+      "date_created": "2023-03-27T17:49:20.021Z",
+      "id": 2
+    },
+    {
+      "bookingId": 2,
+      "clownId": 1,
+      "workComplete": true,
+      "date_created": "2023-03-27T18:20:00.335Z",
+      "id": 3
+    },
+    {
+      "bookingId": 3,
+      "clownId": 2,
+      "workComplete": true,
+      "date_created": "2023-03-27T20:13:17.337Z",
+      "id": 4
+    },
+    {
+      "bookingId": 4,
+      "clownId": 1,
+      "workComplete": true,
+      "date_created": "2023-03-27T20:17:42.972Z",
+      "id": 5
+    },
+    {
+      "bookingId": 5,
+      "clownId": 1,
+      "workComplete": true,
+      "date_created": "2023-03-28T14:02:46.686Z",
+      "id": 6
+    }
+  ]
+}
